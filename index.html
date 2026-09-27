@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="الموقع الشخصي لذي يزن أحمد عبيد، طالب تقنية معلومات مهتم بتطوير الويب والتقنية.">
+  <meta name="author" content="ذي يزن أحمد عبيد">
+  <title>ذي يزن أحمد عبيد | الملف الشخصي</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+<header class="site-header">
+  <nav class="navbar container" aria-label="التنقل الرئيسي">
+    <a class="logo" href="#home">YZ<span>Portfolio</span></a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="فتح القائمة">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#home">الرئيسية</a>
+      <a href="#about">عني</a>
+      <a href="#skills">المهارات</a>
+      <a href="#projects">المشاريع</a>
+      <a href="#contact">تواصل معي</a>
+      <button id="themeToggle" class="theme-btn" type="button" aria-label="تغيير المظهر">◐</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero container">
+    <div class="hero-content">
+      <p class="eyebrow">مرحبًا بك في موقعي الشخصي</p>
+      <h1>أنا <span>ذي يزن أحمد عبيد</span></h1>
+      <p class="typing-line">طالب <strong id="typingText"></strong><span class="cursor">|</span></p>
+
+      <p class="hero-description">
+        شغوف بالتقنية وتطوير الويب، وأسعى إلى تحويل الأفكار إلى تجارب رقمية
+        عصرية تجمع بين جمال التصميم وسهولة الاستخدام وجودة التنفيذ.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary" href="#projects">استكشف مشاريعي</a>
+        <a class="btn secondary" href="#contact">تواصل معي</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="avatar">YZ</div>
+      <h2>ذي يزن أحمد عبيد</h2>
+      <p>طالب تقنية معلومات</p>
+      <span>Web • Technology • Creativity</span>
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <div class="section-heading">
+      <p class="eyebrow">About Me</p>
+      <h2>نبذة عني</h2>
+    </div>
+
+    <div class="about-card">
+      <h3>شغف بالتقنية وطموح لصناعة أثر رقمي</h3>
+      <p>
+        أنا <strong>ذي يزن أحمد عبيد</strong>، طالب في تخصص تقنية المعلومات،
+        أعمل على تطوير معرفتي في البرمجة وتقنيات الويب وتصميم واجهات المستخدم.
+        أؤمن بأن التقنية ليست مجرد أكواد، بل وسيلة لتحويل الأفكار إلى حلول
+        عملية واضحة وذات قيمة.
+      </p>
+      <p>
+        أحرص على التعلم المستمر، وتجربة ما أتعلمه من خلال المشاريع والتطبيقات،
+        وأسعى إلى بناء تجربة رقمية تجمع بين البساطة والأناقة والوظيفة.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <div class="section-heading">
+      <p class="eyebrow">My Skills</p>
+      <h2>المهارات</h2>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card"><h3>HTML</h3><p>بناء صفحات ويب منظمة ودلالية.</p></article>
+      <article class="skill-card"><h3>CSS</h3><p>تصميم واجهات عصرية ومتجاوبة.</p></article>
+      <article class="skill-card"><h3>JavaScript</h3><p>إضافة التفاعل والوظائف البرمجية.</p></article>
+      <article class="skill-card"><h3>قواعد البيانات</h3><p>فهم تنظيم البيانات والتعامل مع مفاهيم قواعد البيانات.</p></article>
+    </div>
+  </section>
+
+  <section id="projects" class="section container">
+    <div class="section-heading">
+      <p class="eyebrow">My Projects</p>
+      <h2>المشاريع</h2>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all" type="button">الكل</button>
+      <button class="filter-btn" data-filter="web" type="button">Web</button>
+      <button class="filter-btn" data-filter="academic" type="button">أكاديمي</button>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card" data-category="web">
+        <span class="project-tag">Web</span>
+        <h3>Personal Portfolio</h3>
+        <p>موقع شخصي يعرض المهارات والمشاريع باستخدام HTML وCSS وJavaScript.</p>
+      </article>
+
+      <article class="project-card" data-category="web">
+        <span class="project-tag">JavaScript</span>
+        <h3>تطبيقات ويب تفاعلية</h3>
+        <p>تطبيقات وممارسات برمجية لتطوير مهارات JavaScript والتفاعل مع صفحات الويب.</p>
+      </article>
+
+      <article class="project-card" data-category="academic">
+        <span class="project-tag">Graduation Project</span>
+        <h3>نظام عمادة معهد الصماد التقني الصناعي الإلكتروني</h3>
+        <p>مشروع تخرج في مجال تقنية المعلومات يهدف إلى تقديم خدمات إلكترونية منظمة للمعهد.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <div class="section-heading">
+      <p class="eyebrow">Contact Me</p>
+      <h2>تواصل معي</h2>
+      <p class="section-intro">يسعدني التواصل معي عبر أي من الوسائل التالية.</p>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info">
+        <article class="contact-item">
+          <div class="contact-icon">✉</div>
+          <div>
+            <span>البريد الإلكتروني</span>
+            <a href="mailto:mardaljn2026@gmail.com">mardaljn2026@gmail.com</a>
+          </div>
+        </article>
+
+        <article class="contact-item">
+          <div class="contact-icon">☎</div>
+          <div>
+            <span>رقم الهاتف</span>
+            <a href="tel:774696366">774696366</a>
+          </div>
+        </article>
+
+        <article class="contact-item">
+          <div class="contact-icon">⌖</div>
+          <div>
+            <span>الموقع</span>
+            <p>اليمن — محافظة إب</p>
+          </div>
+        </article>
+      </div>
+
+      <form id="contactForm" class="contact-form">
+        <h3>أرسل رسالة</h3>
+
+        <label for="name">الاسم</label>
+        <input id="name" type="text" placeholder="اكتب اسمك" required>
+
+        <label for="email">البريد الإلكتروني</label>
+        <input id="email" type="email" placeholder="example@email.com" required>
+
+        <label for="message">الرسالة</label>
+        <textarea id="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+        <button class="btn primary" type="submit">إرسال الرسالة</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> ذي يزن أحمد عبيد — جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
